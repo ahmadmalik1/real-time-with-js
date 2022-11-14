@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans';
+    background-color: rgb(12, 8, 22);
+}
+.main{
+    color: white;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+:where(.hours, .minuts, .seconds){
+    display: inline;
+    padding: 30px 0px;
+    height: 20px;
+    font-size: 80px;
+}
+small{
+    font-size: 16px;
+}
+.hours{
+    color: rgb(255, 58, 163);
+    text-shadow: 0px 0px 10px rgb(255, 0, 221);
+}
+.ampm{
+    background-color: white;
+    display: inline;
+    padding: 10px 8px;
+    font-weight: bold;
+    border-radius: 50px;
+    color: black;
+}
+.minuts{
+    color: skyblue;
+    text-shadow: 0px 0px 10px royalblue;
+}
+.seconds{
+    color: yellow;
+    text-shadow: 0px 0px 10px rgb(255, 230, 0);
+}
+.date{
+    margin-top: 20px;
+    border-radius: 5px;
+    color: rgb(0, 255, 76);
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 10px rgb(81, 255, 0);
+
+}
+
+
+
+/* 
+var week_name = ["Sunday", "Monday", "Tuesday", 
+    "Wednesday", "Thursday", "Friday", "Saturday"];
+var month_name = ["January","February","March",
+    "April","May","June","July",
+    "August","September","October",
+    "November","December"];
+ */
